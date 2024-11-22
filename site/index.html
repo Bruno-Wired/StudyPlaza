@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Plaza</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/home.css">
+</head>
+
+<body>
+    <header>
+        <span>
+            <a class="logo_a" href="./index.html">
+                <img class="logoImagem" src="./img/StudyPlaza.png" alt="LogoStudyPlaza">
+                <h2 class="logoTexto">StudyPlaza</h2>
+            </a>
+        </span>
+
+        <nav>
+            <ul class="nav_ul">
+                <li class="nav_li"><a class="nav_a" href="./html/sobreNos.html">Sobre nós</a></li>
+                <li class="nav_li"><a class="nav_a" href="./html/grupos.html">Grupos</a></li>
+                <li class="nav_li"><button onclick="redirecionar('./html/login.html', 'Entrar', '../app/appIndex.html')" type="button" class="botaoEntrar">Entrar</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="principal">
+            <div class="principal_esquerdo">
+                <h1 class="principal_titulo">
+                    Encontre grupos de estudos ou crie seu próprio com os seus amigos!
+                </h1>
+
+                <p class="principal_descricao">
+                    Com o Study Plaza você consegue encontrar vários grupos de estudos diferentes e
+                    de diversos tipos, encontrar pessoas, conversar sobre seus estudos e fazer amigos.
+                </p>
+            </div>
+
+            <div class="principal_direito">
+                <img class="principal_imagem" src="./img/ElfaEstudando2.png" alt="GarotaEstudando">
+            </div>
+        </section>
+
+        <section class="novidadesSlider">
+            <h1>Novidades</h1>
+
+            <div class="sliderContainer">
+                <button onclick="scrollHorizontal(-150)" title="Para trás" class="botaoAnterior">
+                    <img src="./img/MenorQue.png " alt="botaoAnterior">
+                </button>
+
+                <ul class="novidade_ul">
+                    <li class="novidade_li">
+                        <h2>Nova função lançada!</h2>
+                        <p>
+                            Após algum tempo, decidimos que é melhor que os nosso usuários consigam enviar arquivos de
+                            forma mais fácil, então implementamos uma nova forma que está em seu
+                            chat no bate-papo! Clique e anexe seus arquivos!
+                        </p>
+                    </li>
+
+                    <li class="novidade_li">
+                        <h2>Título</h2>
+                        <p>
+                            Lorem ipsum nisl per metus sem duis nec ultrices magna ipsum elit, lorem torquent
+                            donec enim et phasellus pulvinar
+                            blandit cras lectus at, non duis ac sociosqu platea sem nulla risus condimentum proin.
+                            adipiscing ligula leo posuere eleifend semper mauris
+                        </p>
+                    </li>
+
+                    <li class="novidade_li">
+                        <h2>Título</h2>
+                        <p>
+                            Lorem ipsum nisl per metus sem duis nec ultrices magna ipsum elit, lorem torquent
+                            donec enim et phasellus pulvinar
+                            blandit cras lectus at, non duis ac sociosqu platea sem nulla risus condimentum proin.
+                            adipiscing ligula leo posuere eleifend semper mauris
+                        </p>
+                    </li>
+
+                    <li class="novidade_li">
+                        <h2>Título</h2>
+                        <p>
+                            Lorem ipsum nisl per metus sem duis nec ultrices magna ipsum elit, lorem torquent
+                            donec enim et phasellus pulvinar
+                            blandit cras lectus at, non duis ac sociosqu platea sem nulla risus condimentum proin.
+                            adipiscing ligula leo posuere eleifend semper mauris
+                        </p>
+                    </li>
+
+                    <li class="novidade_li">
+                        <h2>Título</h2>
+                        <p>
+                            Lorem ipsum nisl per metus sem duis nec ultrices magna ipsum elit, lorem torquent
+                            donec enim et phasellus pulvinar
+                            blandit cras lectus at, non duis ac sociosqu platea sem nulla risus condimentum proin.
+                            adipiscing ligula leo posuere eleifend semper mauris
+                        </p>
+                    </li>
+
+                    <li class="novidade_li">
+                        <h2>Título</h2>
+                        <p>
+                            Lorem ipsum nisl per metus sem duis nec ultrices magna ipsum elit, lorem torquent
+                            donec enim et phasellus pulvinar
+                            blandit cras lectus at, non duis ac sociosqu platea sem nulla risus condimentum proin.
+                            adipiscing ligula leo posuere eleifend semper mauris
+                        </p>
+                    </li>
+
+                    <li class="novidade_li">
+                        <h2>Título</h2>
+                        <p>
+                            Lorem ipsum nisl per metus sem duis nec ultrices magna ipsum elit, lorem torquent
+                            donec enim et phasellus pulvinar
+                            blandit cras lectus at, non duis ac sociosqu platea sem nulla risus condimentum proin.
+                            adipiscing ligula leo posuere eleifend semper mauris
+                        </p>
+                    </li>
+                </ul>
+
+                <button onclick="scrollHorizontal(150)" title="Para frente" class="botaoProximo">
+                    <img src="./img/MaiorQue.png" alt="botaoAnterior">
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="midiasSociaisDiv">
+                <span><img class="Footer_logoImagem" src="./img/StudyPlaza.png" alt="LogoStudyPlaza"></span>
+
+                <h2 class="footer_Titulo">Mídias sociais</h2>
+
+                <ul class="midiasLista">
+                    <li class="midiaImagem"><ion-icon name="logo-facebook"></ion-icon></li>
+                    <li class="midiaImagem"><ion-icon name="logo-instagram"></ion-icon></li>
+                    <li class="midiaImagem"><ion-icon name="logo-twitter"></ion-icon></li>
+                    <li class="midiaImagem"><ion-icon name="logo-linkedin"></ion-icon></li>
+                    <li class="midiaImagem"><ion-icon name="logo-youtube"></ion-icon></li>
+                </ul>
+            </div>
+
+            <div class="politicaDiv">
+                <h2 class="footer_Titulo">Politica</h2>
+
+                <ul class="politicaLista">
+                    <li><a href="#">Termos</a></li>
+                    <li><a href="#">Diretrizes</a></li>
+                    <li><a href="#">Licenças</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                </ul>
+            </div>
+
+            <div class="contatoDiv">
+                <h2 class="footer_Titulo">Contato</h2>
+
+                <ul class="contatoLista">
+                    <li>E-mail: studyPlaza@outlook.com</li>
+                    <li>WhatsApp: (00) 00000-0000</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/redirecionar.js"></script>
+    <script src="./js/sliderNovidades.js"></script>
+    <script src="./js/telaInicialBotaoEntrar.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
