@@ -29,7 +29,8 @@ footer {
 }
 
 header span {
-    margin-right: 25vw;
+    display: flex;
+    margin-right: 27vw;
     width: 22vw;
     height: 5vw;
 }
@@ -43,7 +44,7 @@ header span {
 }
 
 .logoImagem {
-    max-width: 4vw;
+    max-width: 10.5vw;
 }
 
 .logoTexto {
